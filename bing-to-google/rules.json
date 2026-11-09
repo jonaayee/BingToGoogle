@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://www.google.com/search?q=\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://(?:www\\.)?bing\\.com/search\\?(?:[^&#]*&)*?q=([^&#]+)[^#]*(?:#.*)?$",
+      "isUrlFilterCaseSensitive": true,
+      "requestMethods": ["get"],
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
