@@ -5,4 +5,4 @@ To install:
 2. Enable Developer Mode
 3. Load Unpacked
 
-should be good :)
+should be good :) also make sure google is selected as your search engine for the address bar!
